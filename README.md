@@ -56,7 +56,15 @@ For more information about Telegram bots refer to [Telegram's official documenta
 
 ### Docker
 
-`docker-compose up`
+```shell
+docker-compose up
+```
+
+if you only want to start the sqlitebrowser
+```shell
+docker-compose up -d sqlitebrowser
+```
+
 
 # Join the Chat
 
